@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    background-color: coral;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    height: 50vh;
+}
+.box{
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+    width: 30px;
+    margin-top: 20px;
+    height: 50px;
+}

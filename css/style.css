@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    height: 7vh;
+    align-items: center;
+    padding: 0px 15px;
+}
+.logo{
+    width: 110px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+}
+.boton{
+    padding: 10px 24px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.boton-ingresar{
+    background-color: #000;
+}
+.boton-ingresar:hover{
+    background-color: #212529;
+}
+.boton-suscribete{
+    background-color: #002be7;
+}
+.boton-suscribete::after{
+    content: "SUSCRÍBETE AHORA";
+}
+.boton-suscribete:hover{
+    background-color: #0021b2;
+}
